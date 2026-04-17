@@ -6,7 +6,7 @@ xhost +local:docker
 
 ### Step 2: RUN application via Docker
 
-sudo docker run -it --rm \
+sudo docker run -d --rm \
     -e DISPLAY=$DISPLAY \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     -v $(pwd):/workspace \
