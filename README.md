@@ -10,4 +10,4 @@ sudo docker run -d --rm \
     -e DISPLAY=$DISPLAY \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     -v $(pwd):/workspace \
-    ghcr.io/pip700/tkinter-app
+    ghcr.io/pip700/tkinter-app:v2
